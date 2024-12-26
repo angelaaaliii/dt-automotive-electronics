@@ -1,0 +1,72 @@
+#about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 25vh;
+  padding-bottom: 5vh;
+}
+
+#about-imgs {
+  width: 40vw;
+  padding-right: 2.5vw;
+  padding-bottom: 5vh;
+  /* TODO change so image has same height as text 
+  rather than manually setting padding bottom to be 5*/
+}
+
+#about-pic {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-width: 2px;
+  /* border-radius: 1px; */
+  border-color: #BDD5EA;
+  border-style: solid;
+}
+
+#about-info {
+  width: 40vw;
+  padding-left: 2.5vw;
+}
+
+#hello {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: calc(30px + 2vmin);
+}
+
+#branding {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: calc(15px + 2vmin);
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* 
+#color-box {
+  background-color: #BDD5EA;
+} */
+
+#link { 
+  color: #FE5F55;
+}
+
+#link:hover { 
+  color: #ca251a;
+  /* (254,95,85) */
+}
+
+/* responsiveness */
+@media (max-width: 600px) {
+  #about {
+    flex-direction: column;
+  }
+} 
