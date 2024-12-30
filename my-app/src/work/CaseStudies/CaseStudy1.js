@@ -1,13 +1,4 @@
 import './CaseStudy1.css';
-import sketch1 from './imgs/sketch1.png';
-import sketch2 from './imgs/sketch2.png';
-import it1_community from './imgs/it1-community.png';
-import it1_publish from './imgs/it1-publish.png';
-import it1_profile from './imgs/it1-profile.png';
-import it2_community from './imgs/it2-community.png';
-import community_flow from './imgs/community-flow.mov';
-import publish_flow from './imgs/publish-flow.mov';
-import profile_flow from './imgs/profile-flow.mov';
 
 export default function CaseStudy1({title, tags, thumbnail}) {
   return (
@@ -96,14 +87,10 @@ export default function CaseStudy1({title, tags, thumbnail}) {
           I created 2 different sketches:
         </p>
         <br></br>
-        <img class="img" alt="picture of the first sketch created for warp redesign"
-        src={sketch1}></img>
         <p>
           and
         </p>
         <br></br>
-        <img class="img" alt="picture of the second sketch created for warp redesign"
-        src={sketch2}></img>
         <br></br>
         <p>After each member of the team created 2 sketches, we discussed what design elements 
           we found most effective from each sketch and created a low-fidelity wireframe based on our discussion.
@@ -111,12 +98,6 @@ export default function CaseStudy1({title, tags, thumbnail}) {
         <br></br>
 
         <div class="subsection-header">Low-Fidelity Wireframes (Iteration 1)</div>
-        <img class="img" alt="image of the first low-fi wireframe for the warp community redesign"
-        src={it1_community}></img>
-        <img class="img" alt="image of the first low-fi wireframe for the warp publish redesign"
-        src={it1_publish}></img>
-        <img class="img" alt="image of the first low-fi wireframe for the warp profile redesign"
-        src={it1_profile}></img>
         <ul class="bullets">
             <li>
               Wanted to create a horizontal community tab to utilize the whitespace at the top and so users can have 
@@ -134,8 +115,6 @@ export default function CaseStudy1({title, tags, thumbnail}) {
           <br></br>
 
         <div class="subsection-header">Low-Fidelity Wireframes (Iteration 2)</div>
-        <img class="img" alt="image of the second iteration of low-fi wireframe for the warp community redesign"
-        src={it2_community}></img>
         <ul class="bullets">
             <li>
               After receiving feedback from our client, the only change we made in 
@@ -156,12 +135,6 @@ export default function CaseStudy1({title, tags, thumbnail}) {
           Lastly, we utilized Figma to create the final high-fidelity, interactive prototype
           with 3 flows (community, publish, and profile):
         </p>
-        <video class="img" alt="video of interactive prototype for warp community flow redesign" 
-        src={community_flow} controls></video> 
-        <video class="img" alt="video of interactive prototype for warp publish flow redesign" 
-        src={publish_flow} controls></video> 
-        <video class="img" alt="video of interactive prototype for warp profile flow redesign" 
-        src={profile_flow} controls></video> 
         
 
       </div>
